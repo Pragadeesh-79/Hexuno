@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+     crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    
+.logo-img {
+  width: 50px;  
+  height: 50px; 
+  object-fit: cover; 
+}
+
+  body {
+  font-family: "Futura", sans-serif;
+  font-weight: 500;
+}
+.btn{
+  background-color: #6a0dad; 
+  color: #fff;
+  border: none;
+}
+
+ .btn-outline-success{
+   background-color: #500a8f;
+ }
+ .feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+  background-color: #904bcd;
+}
+.container-1 {
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5); 
+    border-radius: 10px;
+}
+  </style>
+</head>
+
+<body>
+  <section id="Home">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./Asset-New/Hexuno.svg" alt="Logo" class="logo-img rounded-circle"> Hexuno</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Service
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">SMM</a></li>
+            <li><a class="dropdown-item" href="#">Video Editing</a></li>
+            <li><a class="dropdown-item" href="#">Graphic design</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+          </ul>
+        </li>
+      
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2"class="color" type="search" placeholder="Explore Hexuno" aria-label="Search"/>
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<section class="px-4 pt-5 my-5 text-center border-bottom">
+  <h1 class="display-4 fw-bold text-body-emphasis">
+    Hexuno – Six Sparks, One Digital Fire.
+  </h1>
+
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      We are six minds united by one vision. Creativity, strategy, and innovation fuel our work.
+      From clicks to conversions, we make every step count. Your growth is our mission, your success our story.
+      Together, let’s set your brand ablaze in the digital world.
+    </p>
+
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+      <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-sm-3">Connect</button>
+      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Work With</button>
+    </div>
+  </div>
+
+  <div class="overflow-hidden" style="max-height: 30vh;">
+    <div class="container px-5">
+      <img src="/Asset-New/1.svg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="1000" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section id="Features">
+<div class="container">
+ <h2 class="pb-2 border-bottom">Our Services</h2>
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+  <div class="feature col">
+    <div
+      class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3">
+      <img src="./Asset-New/video-player-svgrepo-com.svg" alt="" height="30"></div>
+    <h3 class="fs-2 text-body-emphasis">Video Editing</h3>
+    <p>At Hexuno, we transform raw clips into compelling stories. With smooth edits, engaging effects, and cinematic precision,
+    our video editing captures attention and keeps your audience hooked from start to finish.</p> <a href="#" class="icon-link">
+      Get Now
+      <svg class="bi" aria-hidden="true">
+        <use xlink:href="#chevron-right"></use>
+      </svg> </a>
+  </div>
+  <div class="feature col">
+    <div
+      class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3">
+      <img src="./Asset-New/graphic-vector-svgrepo-com.svg" alt="" height="30"> </div>
+    <h3 class="fs-2 text-body-emphasis">Graphic Designing</h3>
+    <p>Design is the first language of your brand, and we make it unforgettable. From logos and posters to social media
+    creatives, our graphic designs reflect your identity with clarity, creativity, and style.</p> <a href="#" class="icon-link">
+      Get Now
+      <svg class="bi" aria-hidden="true">
+        <use xlink:href="#chevron-right"></use>
+      </svg> </a>
+  </div>
+  <div class="feature col">
+    <div
+      class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3">
+     <img src="./Asset-New/marketing-analysis-marketing-research-svgrepo-com.svg" alt="" height="30" > </div>
+    <h3 class="fs-2 text-body-emphasis">Digital Marketing</h3>
+    <p>We don’t just market, we build connections. Through data-driven strategies, SEO, social media, and performance
+    campaigns, Hexuno ensures your brand not only reaches the right audience but also delivers measurable results..</p> <a href="#" class="icon-link">
+      Get Now
+      <svg class="bi" aria-hidden="true">
+        <use xlink:href="#chevron-right"></use>
+      </svg> </a>
+  </div>
+  </div>
+  </div>
+  </section>
+  <section id="About">
+  <div class="container-1 container">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Asset-New/3.svg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./Asset-New/2.svg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./Asset-New/1.svg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  </div>
+  </section>
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2025 Hexuno, Inc</p> <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        aria-label="Bootstrap"> <img  src="./Asset-New/Hexuno.svg" alt="" class="logo-img rounded-circle"> </a>
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#Home" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#Features" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#About" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+    </footer>
+    </div>
+
+</body>
+  
+</html>
